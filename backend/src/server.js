@@ -8,6 +8,7 @@ app.use(cors())
 
 const port = process.env.PORT || 3000
 
+
 app.get('/', async (req, res) => {
     return res.send('Received a GET HTTP method');
 });
